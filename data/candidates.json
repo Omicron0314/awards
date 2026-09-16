@@ -1,4 +1,46 @@
 {
   "schema_version": 1,
-  "items": []
+  "items": [
+    {
+      "entry": {
+        "id": "jsp-000998-lean-density",
+        "batch": null,
+        "problem": {
+          "source": "The Justin Sun Prize problem bank",
+          "number": "JSP-000998",
+          "title_en": "How large a density can integers have on which additive representation counts equal a prescribed positive monotone function?",
+          "posed": {
+            "year": 1980,
+            "basis": "earliest-reference",
+            "citation": "P. Erdős, A survey of problems in combinatorial number theory, Annals of Discrete Mathematics 12 (1980), 89–115"
+          },
+          "resolved": {
+            "year": 2026
+          }
+        },
+        "decision": null,
+        "recipients": [
+          {
+            "id": "RECIPIENT-jsp-000998-lean-density-A",
+            "affiliation": "",
+            "contribution_en": "Explicit Lean formalization of both density-one conclusions and both fully quantified negative answers, with pinned reproducibility evidence",
+            "confirmation": null
+          }
+        ],
+        "verification": {
+          "peer_review": null,
+          "formal": null,
+          "independent_review": null
+        },
+        "conflicts": [],
+        "status": "draft",
+        "revocation": null
+      },
+      "source_path": "candidates/observation/jsp-000998-lean-density",
+      "citation": "# JSP-000998 Lean density formalization — draft candidate\n\n## English\n\nThis is a preliminary candidate record under review, not an announced award.\n\nJSP-000998 asks two density questions about the set of natural numbers `n` for\nwhich the ordered additive representation count of a set `A` equals a prescribed\npositive monotone function `g(n)`. The submitted Lean development takes\n`A = ℕ` and `g(n) = n + 1`, proves that every natural number matches, and derives\nthat both the lower and upper natural densities of the matching set are one.\nIt then proves the fully quantified negative answer to each question.\n\nThe elementary counterexample and an earlier Lean proof are already public and\ncredited to Pietro Monticone / Aristotle in the\n[problem-bank record](../../../problems/catalog-0901-1000.md#JSP-000998).\nThe candidate does not claim mathematical discovery or first formalization.\nThe submitted contribution is the explicit indicator-convolution correspondence,\nthe completed lower- and upper-density arguments, both quantified negations, and\na pinned reproducible Lean/Mathlib project.\n\nPublic evidence:\n\n- [Pinned proof repository](https://github.com/Omicron0314/lean_syc_proofs/tree/b1f5c047f000b90d356048f5e91ef90e7768e3a3)\n- [Statement correspondence and attribution](https://github.com/Omicron0314/lean_syc_proofs/blob/b1f5c047f000b90d356048f5e91ef90e7768e3a3/STATEMENT.md)\n- [Reproduction log](https://github.com/Omicron0314/lean_syc_proofs/blob/b1f5c047f000b90d356048f5e91ef90e7768e3a3/evidence/verification.txt)\n- [Self-contained intake copy](../../../submissions/jsp-000998/README.md)\n\nFormal verification, statement-equivalence review, recipient confirmation, and\nindependent review remain pending. OpenAI Codex assisted preparation and local\nchecking; those checks are not independent review.\n\n",
+      "recipients": "# Recipients\n\n## English\n\n`RECIPIENT-jsp-000998-lean-density-A` is an unconfirmed placeholder for the\nformalization contributor who published the pinned proof repository. The claimed\ncontribution is limited to the explicit density conclusions, quantified Lean\nstatements, and reproducibility package described in the candidate citation.\n\nNo solver credit, first-formalization priority, recipient identity, award level,\nor payment entitlement is asserted. Written recipient confirmation and an\nauthorized public profile remain pending.\n\n",
+      "verification_record": null,
+      "statement": null
+    }
+  ]
 }

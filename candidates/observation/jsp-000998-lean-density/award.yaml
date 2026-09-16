@@ -1,0 +1,25 @@
+id: jsp-000998-lean-density
+batch: null
+problem:
+  source: The Justin Sun Prize problem bank
+  number: JSP-000998
+  title_en: How large a density can integers have on which additive representation counts equal a prescribed positive monotone function?
+  posed:
+    year: 1980
+    basis: earliest-reference
+    citation: P. Erdős, A survey of problems in combinatorial number theory, Annals of Discrete Mathematics 12 (1980), 89–115
+  resolved:
+    year: 2026
+decision: null
+recipients:
+  - id: RECIPIENT-jsp-000998-lean-density-A
+    affiliation: ""
+    contribution_en: Explicit Lean formalization of both density-one conclusions and both fully quantified negative answers, with pinned reproducibility evidence
+    confirmation: null
+verification:
+  peer_review: null
+  formal: null
+  independent_review: null
+conflicts: []
+status: draft
+revocation: null
